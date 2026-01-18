@@ -4,7 +4,9 @@
   "private": true,
   "author": "Kasper Fabricius Kristensen <kasper@medusajs.com> & Victor Gerbrands <victor@medusajs.com> (https://www.medusajs.com)",
   "description": "Next.js Starter to be used with Medusa V2",
-  "keywords": ["medusa-storefront"],
+  "keywords": [
+    "medusa-storefront"
+  ],
   "scripts": {
     "dev": "next dev --turbopack -p 8000",
     "build": "next build",
@@ -21,11 +23,11 @@
     "@stripe/stripe-js": "^8.2.0",
     "lodash": "^4.17.21",
     "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
     "pg": "^8.11.3",
     "qs": "^6.12.1",
+    "react": "18.3.1",
     "react-country-flag": "^3.1.0",
+    "react-dom": "18.3.1",
     "server-only": "^0.0.1",
     "tailwindcss-radix": "^2.8.0",
     "webpack": "^5"
@@ -34,17 +36,17 @@
     "@babel/core": "^7.17.5",
     "@medusajs/types": "latest",
     "@medusajs/ui-preset": "latest",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "18.19.8",
+    "@types/pg": "^8.11.0",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
-    "@types/node": "18.19.8",
-    "@types/lodash": "^4.14.195",
-    "@types/pg": "^8.11.0",
+    "autoprefixer": "^10.4.23",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.8",
+    "postcss": "^8.5.6",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.0.23",
     "typescript": "^5.3.2"
   }
 }
-
